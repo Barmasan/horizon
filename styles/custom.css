@@ -1,0 +1,410 @@
+html {
+    font-family: Georgia, serif;
+}
+
+.content-default {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+    font-weight: 400;
+}
+
+a {
+    /* color: #FF851B; */
+    color: #000;
+    text-decoration: none;
+}
+
+#news a {
+    color: #000;
+}
+
+.background-0 {
+    height: 259px;
+    background-image: url("../graphics/images/background-0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-1 {
+    height: 329px;
+    background-image: url("../graphics/images/background-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-image {
+    height: 473px;
+    background-image: url("../graphics/images/background-campaign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+}
+
+.logo-phone {
+    font-size: 24px;
+}
+.logo p {
+    text-align: right;
+    margin-right: 25px;
+}
+.logo a {
+    color: #000;
+}
+.phone p {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.site-nav {
+	margin-top: 20px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.site-nav a {
+    color: #000;
+    text-decoration: none
+}
+.site-nav a:hover {
+    text-decoration: underline;
+}
+.menu .menu-item {
+    margin: 12px 0px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.menubar {
+    text-align: center;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.helper-serif {
+	font-family: "Times New Roman", Georgia, Serif;
+}
+.small {
+    font-size: small;
+}
+.orange {
+    color: #f57647;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.pure-menu-link:hover {
+    text-decoration: underline;
+}
+.campaign {
+    background-color: rgba(255,255,255,0.65);
+    height: 100%;
+}
+.campaign-header {
+    text-align: center;
+    margin: 80px 0px;
+    font-size: 49px;
+}
+
+.campaign ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: center;
+  font-size: 29px;
+}
+
+.campaign li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.campaign li:before {
+  content: "-";
+  padding-right: 10px;
+}
+
+.partners {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.circle img {
+    max-width: 100%;
+}
+
+.news {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.contact-form img {
+    padding-left: 10px;
+}
+.buttons {
+    margin-top: 60px;
+}
+.object {
+    padding: 10px;
+}
+.object-title {
+    padding: 10px;
+    height: 18px;
+    position: relative;
+    top: 38px;
+    background-color: rgba(204, 214, 190, 0.7);
+    text-align: right;
+    font-weight: bold;
+    font-size: 1em;
+}
+.objects a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ol li {
+    color: #FF851B;
+}
+
+.objects-other {
+    line-height: 1.5;
+}
+
+.black {
+    color: #000;
+}
+
+.footer {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.extra-padding-right {
+    padding: 10px;
+}
+
+.hero-object {
+    padding: 20px 0px;
+}
+
+.monospace {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+._clear {
+	height: 20px;
+	width: 100%;
+}
+
+.custom-header-hero-1 {
+	letter-spacing: 2px;
+	font-weight: normal;font-size: 18px;
+}
+
+.ugl_button_container {
+	margin-top: 22px;
+}
+
+.helper-font-style-normal {
+	font-style: normal;
+}
+
+.helper-sans-serif {
+	font-family: sans-serif;
+}
+
+.kz_taurus {
+	font-family: 'KZ Taurus';
+}
+.phone_icon {
+	width: 10px;
+	height: 17px;
+	display: inline;
+}
+.phone-li {
+	margin-right: 8px
+}
+
+.ugl_button {
+	width: 450px;
+
+	/* width: 450px; */
+	/* display: block; */
+	/* float: left; */
+	border: 7px solid #CED7EA;
+	/* color: #000; */
+	/* text-decoration: none; */
+	text-align: center;
+	padding: 7px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+   color: #ff7a4a;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ff7a4a;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ff7a4a;
+}
+
+:-ms-input-placeholder {
+   color: #ff7a4a;
+}
+
+.ugl-input {
+	border-radius: 15px;
+	height: 30px;
+	font-size: 18px;
+	text-align: center;
+	border: 2px solid;
+	margin: 10px 0px;
+	width: 96%;
+}
+
+.ugl-submit {
+	background: #fe7a4a;
+	width: 100%;
+}
+
+.helper-float-right {
+	float: right;
+}
+.top-border {
+	border-top: 2px solid black;
+	padding-bottom: 5px;
+	width: 99%;
+}
+
+.floating_nav {
+	position: fixed;
+	z-index: 9999;
+	right: 300px;
+	top: 404px;
+	width: 100px;
+}
+.floating_nav img {
+	margin-bottom: 20px;
+}
+.floating_nav_sub img {
+	margin-bottom: 20px;
+}
+
+.floating_nav_wrap_sub {
+	position: fixed;
+	right: 300px;
+	top: 92px;
+	width: 100px;
+}
+
+.text-logo a:hover {
+	text-decoration: none;
+}
+
+		.partners {
+			width: 100%;
+			font-size: 19px;
+			margin-top: 90px;
+			position: relative;
+
+		}
+
+		.partners .inner {
+			position: relative;
+			z-index: 1;
+		}
+
+		.partners-title{
+			font-style: italic;
+			letter-spacing: 2.0px;
+			font-size: 23px;
+			font-weight: bold;
+		}
+
+		.partners-img {
+			width: 980px;
+			height: 137px;
+			overflow: hidden;
+			margin-top: 20px;
+		}
+
+		.partners-img .inner {
+			width: 2100px; /* (980px+70px)*2 */
+		}
+
+		.partners-img .inner .page {
+			width: 1050px; /* 980 + 70 */
+			float: left;
+		}
+
+		.partners-img .inner .page a {
+			float: left;
+			display: block;
+			margin-left: 66.66666666666667px;
+		}
+
+		.partners-img .inner .page a:first-child{
+			margin-left: 0px;
+		}
+
+		.our-partners-title{
+			font-size: 24px;
+			margin-top: 22px;
+			font-weight: bold;
+		}
+
+		.sld-partners-btn {
+			width: 35px;
+			margin: 0 auto;
+			margin-top: 20px;
+		}
+
+		.sld-partners-btn div {
+			float: left;
+			width: 10px;
+			height: 10px;
+			background-color: #ccc;
+			box-shadow: 0px 0px 10px #ccc;
+			border-radius: 50px;
+			margin-left: 15px;
+			cursor: pointer;
+		}
+
+		.sld-partners-btn div:first-child {
+			margin-left: 0px;
+		}
+
+		.sld-partners-btn-active {
+			background-color: #f37349!important;
+			box-shadow: 0px 0px 10px #f37349!important;
+		}
+
+/*
+@media screen and (max-width: 1760px) {
+    .floating_nav {
+        display: none !important;
+    }
+}
+*/
+
+* {
+background: red;
+}
+

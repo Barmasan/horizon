@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'KZ Taurus';
+	src: url('graphics/fonts/KZTaurus/KZTaurus.eot');
+	src: url('graphics/fonts/KZTaurus/KZTaurus.eot?#iefix') format('embedded-opentype'),
+		 url('graphics/fonts/KZTaurus/KZTaurus.woff2') format('woff2'),
+	 	 url('graphics/fonts/KZTaurus/KZTaurus.woff') format('woff'),
+	     url('graphics/fonts/KZTaurus/KZTaurus.ttf') format('truetype'),
+		 url('graphics/fonts/KZTaurus/KZTaurus.svg#KZTaurus') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
